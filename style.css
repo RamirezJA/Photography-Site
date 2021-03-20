@@ -6,6 +6,20 @@
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: 'Ruhl';
+  src: url('/fonts/FrankRuhlLibre-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Ruhl Medium';
+  src: url('/fonts/FrankRuhlLibre-Medium.ttf');
+}
+@font-face {
+  font-family: 'Vibes';
+  src: url('/fonts/GreatVibes-Regular.ttf');
+}
+
 html {
   font-size: 62.5%;
   --header1: calc(2rem + 1vw);
@@ -38,12 +52,6 @@ h4,
 h5 {
   font-size: var(--header4);
 }
-.flex {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
 
 ul {
   list-style: none;
@@ -51,4 +59,18 @@ ul {
 
 a {
   text-decoration: none;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  font-family: 'Ruhl', sans-serif;
+}
+h1 {
+  font-family: 'Vibes', sans-serif;
 }
