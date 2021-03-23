@@ -39,6 +39,7 @@ li,
 button,
 label,
 input,
+a,
 p {
   font-size: var(--text);
 }
@@ -59,6 +60,7 @@ ul {
 
 a {
   text-decoration: none;
+  color: black;
 }
 
 .flex {
@@ -73,4 +75,28 @@ body {
 }
 h1 {
   font-family: 'Vibes', sans-serif;
+}
+
+/* Nav Section */
+.main-head {
+  background: #414141;
+}
+
+nav {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  min-height: 10vh;
+  padding: 2rem 0rem;
+}
+
+#Logo {
+  flex: 1 1 20rem;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-around;
+  flex: 1 1 20rem;
 }
